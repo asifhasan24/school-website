@@ -6,10 +6,13 @@ import Course from './components/Course/Course';
 
 function App() {
   return (
-    <div >
-     <Header></Header>
-     <Course></Course>
+    <div>
+ 
+      <Header ></Header>
+      <Course></Course>
     </div>
+
+
   );
 }
 

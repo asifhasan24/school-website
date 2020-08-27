@@ -19,16 +19,17 @@ const Course = () => {
     }
 
     return (
-        <div style={{backgroundColor : 'maroon'}}>
+        <div style={{backgroundColor : 'lightblue'}}>
+          <div >
+                <Cart cart={cart}></Cart>
+            </div>
             <div>
                 {
                     course.map(course => <Description handleAddCourse={handleAddCourse}
                         course={course} key={course.id} ></Description>)
                 }
             </div>
-            <div>
-                <Cart cart={cart}></Cart>
-            </div>
+          
 
 
         </div>

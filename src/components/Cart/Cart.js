@@ -9,11 +9,19 @@ const Cart = (props) => {
         return Number(digit);
  }
     return (
-        <div>
-            <p> Course  Purchased :{cart.length}</p> 
-            <p> Total price : {formatNumber(total)} </p>
-
-        </div>
+        <div className="card text-center" style={{backgroundColor: 'blueviolet',fontWeight :'700',color:'white'}} >
+  <div className="card-header" >
+  <h2> Purchased Details</h2>
+  
+  </div>
+  <div className="card-body ">
+    <h4 className="card-title ">Course  Purchased : {cart.length}</h4>
+    <h4 className="card-text">Total price : {formatNumber(total)}</h4>
+    <a href="/purchased" className="btn btn-primary">Go somewhere</a>
+  </div>
+ 
+</div>
+        
     );
 };
 
