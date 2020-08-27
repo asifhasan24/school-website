@@ -16,8 +16,8 @@ const Cart = (props) => {
   </div>
   <div className="card-body ">
     <h4 className="card-title ">Course  Purchased : {cart.length}</h4>
-    <h4 className="card-text">Total price : {formatNumber(total)}</h4>
-    <a href="/purchased" className="btn btn-primary">Go somewhere</a>
+    <h4 className="card-text">Total Price : {formatNumber(total)}</h4>
+    <a href="/purchased" className="btn btn-primary">Go to courses</a>
   </div>
  
 </div>

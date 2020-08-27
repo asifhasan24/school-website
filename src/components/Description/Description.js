@@ -7,7 +7,7 @@ const Description = (props) => {
     const { name, price ,img } = props.course ;
     return (
         
-      <div className="card " style={{width : '300px', marginLeft:'480px'}}>
+      <div className="card" style={{width : '300px', marginLeft:'480px'}}>
   <img src={img} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h3 className="card-title" style={{fontWeight : '700',color : 'black'}}> Course Name :{name}</h3>
